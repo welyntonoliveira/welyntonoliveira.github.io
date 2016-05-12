@@ -1,0 +1,8 @@
+---
+published: true
+title: Teste
+layout: post
+tags: [teste]
+categories: [Teste]
+---
+Teste
