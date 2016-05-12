@@ -1,0 +1,10 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://welyntonoliveira.github.io
+title: Awesome
+email: oliveirawelynton@gmail.com
+author: welyntonoliveira
+description: My awesome new site
+paginate: 3
+google_analytics: 
