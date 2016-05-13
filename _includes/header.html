@@ -1,7 +1,7 @@
     <header class="header">
         <div class="menumobile"><i class="zmdi zmdi-menu"></i></div>
         <nav>
-            <ul class="menu">
+            <ul class="menu" style="margin: -20px 0 0;">
                 <div>
                     <li> <a>Home</a></li>
                     <li> <a>Service</a></li>
@@ -12,3 +12,10 @@
             </ul>
         </nav>
     </header>
+    <script>
+        $(document).ready(function(){
+            $(".menumobile").click(function(){ 
+                $(".menu").toggle('slow');
+            });
+        });
+    </script>
