@@ -92,3 +92,11 @@ body {
 section {
   margin-top: 100px;
 }
+.post {
+  background: #fff;
+  padding: 20px;
+}
+.post h1 {
+  font-family: 'Osvald', sans-serif;
+  font-size: 28px;
+}
