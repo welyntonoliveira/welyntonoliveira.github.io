@@ -1,0 +1,16 @@
+body {
+  min-width: 100%;
+  min-height: 100%;
+}
+.header {
+  min-width: 100%;
+}
+.menu {
+  min-width: 100%;
+  border-bottom: solid 3px #333;
+  list-style: none;
+  float: right;
+}
+.menu li {
+  display: inline-block;
+}

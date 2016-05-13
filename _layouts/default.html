@@ -11,9 +11,11 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/basscss.css" | prepend: site.baseurl }}" type="text/css">
+    <!--<link rel="stylesheet" href="{{ "/css/basscss.css" | prepend: site.baseurl }}" type="text/css">
     <link rel="stylesheet" href="{{ "/css/pixyll.css" | prepend: site.baseurl }}" type="text/css">
-    <link rel="stylesheet" href="{{ "/css/solarized-dark.css" | prepend: site.baseurl }}" type="text/css">
+    <link rel="stylesheet" href="{{ "/css/solarized-dark.css" | prepend: site.baseurl }}" type="text/css">-->
+    <link rel="stylesheet" href="{{ ".../css/template.css" " type="text/css">
+    <link rel="stylesheet" href="{{ "´{%  site.baseurl %}/css/bootstrap.min.css" | prepend: site.baseurl }}" type="text/css">
 
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
@@ -21,7 +23,15 @@
 </head>
 
 <body>
-  <div class="site-wrap">
+    <header class="header">
+        <nav>
+            <ul class="menu">
+                <li> <a>Home</a></li>
+                <li> <a>Service</a></li>
+            </ul>
+        </nav>
+    </header>
+ <!-- <div class="site-wrap">
     <header class="site-header px2 px-responsive">
       <div class="mt2 wrap">
         <div class="measure">
@@ -42,5 +52,5 @@
   </div>
 
   {% include footer.html %}
-</body>
+</body>-->
 </html>
