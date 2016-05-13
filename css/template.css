@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:700);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 body {
   min-width: 100%;
   min-height: 100%;
   background: #f2f2f2 !important;
+  font-family: 'Raleway', sans-serif !important;
 }
 .header {
   min-width: 100%;
@@ -71,4 +73,10 @@ body {
 }
 .blog {
   color: #ad6c60 !important;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
 }
