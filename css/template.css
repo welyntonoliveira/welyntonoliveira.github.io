@@ -89,3 +89,6 @@ body {
 .footer a {
   color: #ad6c60 !important;
 }
+section {
+  margin-top: 100px;
+}
