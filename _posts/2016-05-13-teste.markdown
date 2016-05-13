@@ -3,15 +3,4 @@ published: true
 title: teste
 layout: post
 ---
-teste     margin: -20px 0 20px;
-    font-size: 13px;
-    margin: -20px 0 20px;
-    font-size: 13px;
-    margin: -20px 0 20px;
-    font-size: 13px;
-    margin: -20px 0 20px;
-    font-size: 13px;
-    margin: -20px 0 20px;
-    font-size: 13px;
-    margin: -20px 0 20px;
-    font-size: 13px;
+Diferente do que muita gente fala, entendo que o novo consumidor não é apenas o jovem, a geração X, Y ou Z. Este novo consumidor é aquele que participa dessa revolução provocada principalmente pela internet, mas também pela tecnologia, pelo acesso rápido a informação, pela rapidez da comunicação, a facilidade dos novos produtos e meios.
