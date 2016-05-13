@@ -79,4 +79,12 @@ body {
   bottom: 0;
   background: #fff;
   width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+.footer small {
+  font-size: 14px;
+}
+.footer a {
+  color: #ad6c60 !important;
 }
