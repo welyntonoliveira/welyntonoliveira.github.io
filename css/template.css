@@ -127,7 +127,7 @@ section {
   letter-spacing: 2px;
   color: #ad6c60 !important;
 }
-.box_rel h3 {
+.box_rel h3 a {
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
   text-transform: uppercase;
