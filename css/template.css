@@ -96,6 +96,8 @@ section {
   background: #fff;
   padding: 20px;
   margin: 10px 0;
+  float: left;
+  width: 100%;
 }
 .post h1 {
   font-family: 'Oswald', sans-serif;
@@ -117,4 +119,18 @@ section {
 }
 .box_rel {
   background: #fff;
+}
+.box_rel h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ad6c60 !important;
+}
+.box_rel h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ad6c60 !important;
 }
