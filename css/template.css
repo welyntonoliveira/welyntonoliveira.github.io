@@ -95,6 +95,7 @@ section {
 .post {
   background: #fff;
   padding: 20px;
+  margin: 10px 0;
 }
 .post h1 {
   font-family: 'Oswald', sans-serif;
