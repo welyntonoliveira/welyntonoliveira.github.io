@@ -23,7 +23,7 @@ layout:
                         {% for post in site.related_posts limit:3 %}
                         <div class="col-md-4">
                             <header>
-                                <h3 class="post_titulo"><a class="" href="{{ post.url }}">{{ post.title }</a></h3>
+                                <h3><a class="post_titulo"  href="{{ post.url }}">{{ post.title }</a></h3>
                                 <small>{{ post.date | date_to_string }}</small>
                                 <p class="post-summary">{{ post.summary }}</p>
                             </header>    
