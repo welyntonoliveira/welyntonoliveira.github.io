@@ -127,9 +127,9 @@ section {
   letter-spacing: 2px;
   color: #ad6c60 !important;
 }
-.box_rel h3 a {
+.box_rel .post_titulo {
   font-family: 'Oswald', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #ad6c60 !important;
