@@ -5,6 +5,7 @@ layout: default
 <div class="home">
 
   <div class="posts container">
+      <div class="row">
       <div class="col-md-4">  
     {% for post in paginator.posts %}
       <div class="post">
@@ -16,7 +17,8 @@ layout: default
       </div>
     {% endfor %}
       </div>  
-  </div>
+      </div>
+      </div>
 
   {% include pagination.html %}
 
