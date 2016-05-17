@@ -4,7 +4,8 @@ layout: default
 
 <div class="home">
 
-  <div class="posts">
+  <div class="posts container">
+      <div class="col-md-4">  
     {% for post in paginator.posts %}
       <div class="post">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
@@ -14,6 +15,7 @@ layout: default
         </a>
       </div>
     {% endfor %}
+      </div>  
   </div>
 
   {% include pagination.html %}
